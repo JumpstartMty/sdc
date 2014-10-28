@@ -83,12 +83,17 @@ body {
   height: 100%;
   text-align: center;
 }
+
+.intro p{
+  font-size: 1.3em;
+}
+
 h2 {
   text-transform: uppercase;
   font-size: 3em;
   font-weight: 700;
   letter-spacing: 0.015em;
-  margin: 70px 0 30px 0;
+  margin: 60px 0 30px 0;
   text-align: center;
 }
 /*h2::after {
@@ -101,14 +106,14 @@ h2 {
   line-height: 1.1;
 }*/
 h1{
-  font-size: 3.8em;
-  color: #503359;
+  font-size: 3em;
+  color: #C0392B;
   text-align: center;
-  margin: 50px 0 0 0;
+  margin-top: 50px;
 }
 
 h3{
-  color: #674172;
+  color: #C0392B;
   font-size: 22px;
   text-align: center;
   margin: 30px 0 50px 0; 
@@ -176,19 +181,22 @@ img{
 
 .confirmar{
   color: #16a085;
+  padding: 0;
+  margin: 0;
 }
 
 #fecha{
   width: 100%;
   height: auto;
   background-color: #F5AB35;
+  padding: 50px 0 50px 0;
 }
 
 #agenda{
   width: 100%;
   height: auto;
   background-color: #049372;
-  padding-bottom: 80px;
+  padding: 80px 0 140px 0;
 }
 
 #sponsor{
@@ -203,6 +211,12 @@ img{
   font-size: 2em;
 }
 
+#sponsor h3{
+  color:#a8a8a8;
+  font-size: 1em;
+  margin-top: -20px;
+}
+
 #sponsor img{
   width: 100%;
   height: auto;
@@ -212,6 +226,36 @@ img{
 
 .hora{
   text-align: center;
+}
+
+ul.countdown {
+list-style: none;
+margin: 0 0 -75px 0;
+padding: 0;
+display: block;
+text-align: center;
+}
+ul.countdown h2{
+  color: #000;
+  font-size: 24px;
+}
+ul.countdown li {
+display: inline-block;
+}
+ul.countdown li span {
+font-size: 80px;
+font-weight: 300;
+line-height: 80px;
+}
+ul.countdown li.seperator {
+font-size: 80px;
+line-height: 70px;
+vertical-align: top;
+}
+ul.countdown li p {
+color: #000;
+font-size: 14px;
+margin-top: 0;
 }
 
 @media only screen and (max-width: 1000px) {
