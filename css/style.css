@@ -265,6 +265,37 @@ font-size: 14px;
 margin-top: 0;
 }
 
+.comprar{
+  padding: 60px 0 0 0;
+}
+
+.comprar h3{
+  color: #F0F0F0;
+  font-size: 2em;
+}
+
+.comprar a i{
+  padding-right: 10px;
+}
+
+.comprar a{
+  text-decoration: none;
+  color: #836400;
+  padding:20px;
+  background-color: #E1B10E;
+  border:none;
+  border-radius: 4px;
+  font-size: 1.4em;
+
+}
+
+.comprar a:hover{
+  background-color: #cea10c;
+  border:none;
+  border-radius: 4px;
+  font-size: 1.4em;
+}
+
 @media only screen and (max-width: 1000px) {
   h1 {
     font-size: 70px;
