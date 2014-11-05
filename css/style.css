@@ -208,7 +208,7 @@ img{
   background-color:#F0F0F0;
   width: 100%;
   height: auto;
-  padding: 30px 0 20px 0;
+  padding: 30px 0 80px 0;
 }
 
 #sponsor h2{
@@ -220,13 +220,14 @@ img{
   color:#a8a8a8;
   font-size: 1em;
   margin-top: -20px;
+  padding-bottom: 30px;
 }
 
 #sponsor img{
   width: 100%;
   height: auto;
   display: inline-block;
-  margin: 40px 0 70px 0;
+  margin: 0 0 30px 0;
 }
 
 .hora{
