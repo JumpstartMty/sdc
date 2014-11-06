@@ -193,6 +193,11 @@ img{
   padding: 50px 0 50px 0;
 }
 
+#desc{
+  font-size: 12px;
+  line-height: 2px;
+}
+
 #agenda{
   width: 100%;
   height: auto;
